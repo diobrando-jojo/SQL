@@ -209,6 +209,7 @@
   HAVING <分组结果对应条件>；  
   ```
    * `SELECT `Year` , AVG(Rating) FROM movie_data  where Votes > 10000 GROUP BY `Year` HAVING AVG(Rating)>7;`
+   
    ![image](https://user-images.githubusercontent.com/73262817/113723324-d2219d80-9723-11eb-9246-f307ef4b170c.png)
 
   * ROLLUP  
